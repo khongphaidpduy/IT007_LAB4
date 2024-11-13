@@ -156,7 +156,7 @@ int main() {
 
         // Tiến trình bắt đầu lần đầu tiên
         if (ok[minid] == 0) {
-            ok[minid] == 1;
+            ok[minid] = 1;
             Input[minid].iStart = curtime;
             Input[minid].iResponse =  Input[minid].iStart - Input[minid].iArrival;
         }
